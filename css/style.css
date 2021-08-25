@@ -617,7 +617,7 @@ label #sign-two {
 	}
 	.nav-bar ul {
 		position: fixed;
-		width: 100%;
+		width: 80%;
 		height: 100vh;
 		background: #f1f2f6;
 		top: 60px;
@@ -625,6 +625,7 @@ label #sign-two {
 		text-align: center;
 		transition: 0.5s;
 		z-index: 10;
+		text-align: c;
 	}
 	.nav-bar ul li ul li {
 		width: 90%;
@@ -645,13 +646,13 @@ label #sign-two {
 		font-size: 25px;
 		line-height: 50px;
 		transition: all 0.3s ease;
-		margin-top: 70px;
+		margin-top: -20px;
 	}
 	.nav-bar ul li ul {
 		position: absolute;
-		left: 90px;
+		left: 40px;
 		top: 100%;
-		width: 50%;
+		width: 70%;
 		background-color: #f1f2f6;
 		opacity: 0;
 		visibility: hidden;
@@ -665,7 +666,7 @@ label #sign-two {
 		line-height: 10px;
 	}
 	#res-menu:checked ~ ul {
-		left: -20px;
+		left: 50px;
 	}
 	#res-menu:checked ~ label #sign-one{
 		display: none;
