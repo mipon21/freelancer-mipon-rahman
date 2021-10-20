@@ -235,7 +235,7 @@ label #sign-two {
 	border-radius: 10px;
 	display: flex;
 	height: 280px;
-	transition: all 0.3s ease;
+	transition: all 0.5s ease;
 }
 .card-items:hover {
 	box-shadow: 2.5px 10px 30px rgba(0,0,0,0.2);
@@ -284,7 +284,7 @@ label #sign-two {
 	height: 200px;
 	overflow: hidden;
 	padding: 40px 18px;
-	transition: all 0.3s ease;
+	transition: all 0.5s ease;
 }
 .service-content:hover {
 	box-shadow: 2.5px 5px 30px rgba(0, 0, 0, 0.2);
@@ -314,7 +314,7 @@ label #sign-two {
 	font-weight: 600;
 	font-size: 20px;
 	color: #7d7d7d;
-	transition: all 0.2s ease;
+	transition: all 0.5s ease;
 }
 .service-content:hover .card p {
 	color: #fff;
